@@ -43,9 +43,9 @@ public class SparkplugHostApplication implements HostApplicationEventHandler {
 	private static final String HOST_ID = "IamHost";
 	private static final String MQTT_SERVER_NAME_1 = "Mqtt Server One";
 	private static final String MQTT_CLIENT_ID_1 = "Tahu_Host_Application";
-	private static final String MQTT_SERVER_URL_1 = "tcp://localhost:1883";
-	private static final String USERNAME_1 = "admin";
-	private static final String PASSWORD_1 = "changeme";
+	private static final String MQTT_SERVER_URL_1 = "tcp://192.168.20.10:1883";
+	private static final String USERNAME_1 = null;
+	private static final String PASSWORD_1 = null;
 	private static final String MQTT_SERVER_NAME_2 = "Mqtt Server Two";
 	private static final String MQTT_CLIENT_ID_2 = "Tahu_Host_Application";
 	private static final String MQTT_SERVER_URL_2 = "tcp://localhost:1884";
